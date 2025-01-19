@@ -1,6 +1,6 @@
-import "../css/hero.css";
-import { TopNav } from "./TopNav";
-import { Content } from "./Content";
+import "./hero.css";
+import { TopNav } from "./components/TopNav";
+import { Content } from "./components/Content";
 
 export function Hero() {
   return (

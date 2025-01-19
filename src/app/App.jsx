@@ -1,9 +1,9 @@
-import { Hero } from "./components/Hero";
+import { Hero } from "./sections/hero/Hero";
 import "./app.css";
 
 function App() {
   return (
-    <div className="page">
+    <div className="app">
       <Hero />
     </div>
   );

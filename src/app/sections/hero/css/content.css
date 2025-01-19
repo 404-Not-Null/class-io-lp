@@ -1,6 +1,6 @@
 .main {
   flex: 1;
-  max-width: 75vw; 
+  max-width: 75vw;
   margin: 0 auto;
   padding: 0 1.6rem;
   display: flex;
@@ -12,7 +12,7 @@
   justify-content: center;
   width: 100%;
 }
- 
+
 .hero-content {
   flex: 2;
   align-self: center;
@@ -33,17 +33,6 @@
   max-width: 60rem;
 }
 
-.hero-button {
-  background: white;
-  color: black;
-  border: none;
-  padding: 0.8rem 1.6rem;
-  border-radius: 2.5rem;
-  font-weight: 500;
-  font-size: 2rem;
-  cursor: pointer;
-}
-
 .hero-image {
   flex: 1;
   align-items: end;
@@ -59,26 +48,22 @@
   .hero {
     flex-direction: column;
     text-align: center;
-    gap: 3.2rem
+    gap: 3.2rem;
   }
 
   .hero-content h1 {
     font-size: 3.5rem;
-    padding-left: 0;
+    
   }
 
   .hero-content p {
     font-size: 1.5rem;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
   }
 
   .hero-image {
     min-height: 20rem;
-  }
-
-  .hero-button {
-
-    font-size: 1.5rem;
   }
 }

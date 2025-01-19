@@ -1,5 +1,7 @@
 import "../css/content.css";
-import hero from "../../assets/hero.svg";
+import hero from "../../../../assets/hero.svg";
+import linkedIn from "../../../../assets/linkedIn.svg";
+import { CustomButton } from "../../../reusable_components/reusable_components";
 
 export function Content() {
   return (
@@ -11,7 +13,13 @@ export function Content() {
             Secure, Effortless, and Accurate Attendance Taking and Tracking for
             Schools, Colleges, and Universities.
           </p>
-          <button className="hero-button">Get Started Today</button>
+          <CustomButton
+            href="https://www.linkedin.com/company/class-io/"
+            className="hero-button"
+          >
+            <img src={linkedIn} alt="LinkedIn" />
+            <span>Follow Us</span>
+          </CustomButton>
         </div>
         <div className="hero-image">
           <img src={hero} alt="Class-io Hero" />

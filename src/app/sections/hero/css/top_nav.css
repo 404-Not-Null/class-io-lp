@@ -1,0 +1,36 @@
+.nav {
+  /* padding: 0.8rem; */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-content {
+  padding: 0.8rem;
+  max-width: 95vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-content img {
+  height: 3rem;
+  width: auto;
+}
+
+
+
+.nav-content span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .nav-content img {
+    height: 2.5rem;
+    width: auto;
+  }
+
+  .nav-content span {
+    font-size: 1.5rem;
+  }
+}
