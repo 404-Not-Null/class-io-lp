@@ -12,7 +12,10 @@
 }
 
 .button-link {
+  border-radius: 2.5rem;
   text-decoration: none;
+  width: max-content;
+  display: block;
 }
 
 @media (max-width: 768px) {
