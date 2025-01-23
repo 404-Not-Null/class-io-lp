@@ -10,6 +10,7 @@
 .Leftside{
     flex:2.1;
     display:flex;
+    gap: 1rem;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -67,7 +68,7 @@
     }
 
     .Leftside{
-        gap: 1rem;
+        
         justify-content: space-evenly;
     }
 
