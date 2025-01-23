@@ -19,7 +19,7 @@ export const ABOUT_AND_FEATURES = {
   ENHANCED_ACCURACY_SECURITY: {
     title: "Enhanced Accuracy & Security",
     description:
-      "Geolocation ensures students are physically present in the classroom before checking in. Prevents proxy attendance with real-time verification.",
+      "Geolocation ensures students are physically present in the classroom before checking in, preventing proxy attendance.",
   },
   EFFORTLESS_ATTENDANCE_MANAGEMENT: {
     title: "Effortless Attendance Management",
