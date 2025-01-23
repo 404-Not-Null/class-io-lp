@@ -1,0 +1,9 @@
+.about-and-features-section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 3rem;
+    align-items: center;
+  }
+  
