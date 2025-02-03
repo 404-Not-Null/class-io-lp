@@ -1,0 +1,86 @@
+.reasons{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.why{
+  border-radius: 1.5rem;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 2rem;
+  width: 38.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.why .title{
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+
+.why .body span{
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.why .body p{
+  font-size: 1.4rem;
+}
+
+
+.usecase{
+  border-radius: 1.5rem;
+  padding: 2rem;
+  width: 38.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  border: 2px solid white;
+}
+
+.usecase .title{
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+
+.usecase .body span{
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.usecase .body p{
+  font-size: 1.4rem;
+}
+
+@media (max-width: 450px) {
+
+  .why .title{
+    font-size: 2rem;
+  }
+  
+  .why .body span{
+    font-size: 1rem;
+
+  }
+  .why .body p{
+    font-size: 1rem;
+  }
+
+  .usecase .title{
+
+    font-size: 2rem;
+  }
+  
+  .usecase .body span{
+    font-size: 1rem;
+  }
+  .usecase .body p{
+    font-size: 1rem;
+  }
+
+  .reasons{
+    padding: 0 3rem;
+  }
+}

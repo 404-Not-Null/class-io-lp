@@ -1,0 +1,13 @@
+.header{
+  display:flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+.header-1{
+  font-weight: bold;
+  font-size: 3.2rem;
+}
+.header-2{
+ font-size: 1.6rem;
+}

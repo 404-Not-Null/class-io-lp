@@ -1,0 +1,15 @@
+.step-cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+@media (max-width: 532px) {
+  .step-cards{
+    padding: 0 3rem;
+    gap: 1rem;
+  }
+
+}
