@@ -57,30 +57,30 @@
 @media (max-width: 450px) {
 
   .why .title{
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   
   .why .body span{
-    font-size: 1rem;
+    font-size: 1.5rem;
 
   }
   .why .body p{
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .usecase .title{
 
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   
   .usecase .body span{
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .usecase .body p{
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .reasons{
-    padding: 0 3rem;
+    padding: 0 3.5rem;
   }
 }

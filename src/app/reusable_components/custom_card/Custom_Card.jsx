@@ -4,7 +4,7 @@ import "./custom_card.css";
 export function Custom_card(props) {
     return (
         <div className="container">
-            <img clasName="Icon" src={props.icon} alt={props.alt} />
+            <img className="Icon" src={props.icon} alt={props.alt} />
 
             <div className="Topic" >
                 {props.topic}
